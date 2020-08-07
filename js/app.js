@@ -78,6 +78,7 @@ function vaciarCarrito(){
         listaCursos.removeChild(listaCursos.firstChild);
     }
     return false;
+    localStorage.clear();
 }
 
 
